@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.kelineyt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:4:5-24:19
+15        android:name="com.example.kelineyt.ThriftApplication"
+15-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:5:9-42
+16        android:allowBackup="true"
+16-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.8.0] /home/priiyesh/.gradle/caches/transforms-3/4577755ecd11c9ddf0821e848ddf32e3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:9:9-54
+23        android:supportsRtl="false"
+23-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:10:9-36
+24        android:testOnly="true"
+25        android:theme="@style/Theme.KelineYt" >
+25-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:11:9-46
+26        <activity
+26-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:12:9-14:39
+27            android:name="com.example.kelineyt.activities.ShoppingActivity"
+27-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:13:13-56
+28            android:exported="true" />
+28-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:14:13-36
+29        <activity
+29-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:15:9-23:20
+30            android:name="com.example.kelineyt.activities.LoginRegisterActivity"
+30-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:16:13-61
+31            android:exported="true" >
+31-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:17:13-36
+32            <intent-filter>
+32-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:19:17-69
+33-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:21:17-77
+35-->/home/priiyesh/AndroidStudioProjects/ThriftEra-Android/app/src/main/AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <uses-library
+39-->[androidx.window:window:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/6553f43aa1feadbc5baf23e9436ac2d7/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+40            android:name="androidx.window.extensions"
+40-->[androidx.window:window:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/6553f43aa1feadbc5baf23e9436ac2d7/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+41            android:required="false" />
+41-->[androidx.window:window:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/6553f43aa1feadbc5baf23e9436ac2d7/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+42        <uses-library
+42-->[androidx.window:window:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/6553f43aa1feadbc5baf23e9436ac2d7/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+43            android:name="androidx.window.sidecar"
+43-->[androidx.window:window:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/6553f43aa1feadbc5baf23e9436ac2d7/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+44            android:required="false" />
+44-->[androidx.window:window:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/6553f43aa1feadbc5baf23e9436ac2d7/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+45
+46        <activity
+46-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:27:9-44:20
+47            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+47-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:28:13-80
+48            android:excludeFromRecents="true"
+48-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:29:13-46
+49            android:exported="true"
+49-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:30:13-36
+50            android:launchMode="singleTask"
+50-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:31:13-44
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+51-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:32:13-72
+52            <intent-filter>
+52-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:33:13-43:29
+53                <action android:name="android.intent.action.VIEW" />
+53-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+53-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+55-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+56-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+57
+58                <data
+58-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+59                    android:host="firebase.auth"
+59-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+60                    android:path="/"
+60-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+61                    android:scheme="genericidp" />
+61-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:45:9-62:20
+65            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+65-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:46:13-79
+66            android:excludeFromRecents="true"
+66-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:47:13-46
+67            android:exported="true"
+67-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:48:13-36
+68            android:launchMode="singleTask"
+68-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:49:13-44
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+69-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:50:13-72
+70            <intent-filter>
+70-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:51:13-61:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:17-69
+71-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:34:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:17-76
+73-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:36:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:17-78
+74-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:37:27-75
+75
+76                <data
+76-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:39:17-42:51
+77                    android:host="firebase.auth"
+77-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:40:21-49
+78                    android:path="/"
+78-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:41:21-37
+79                    android:scheme="recaptcha" />
+79-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:42:21-48
+80            </intent-filter>
+81        </activity>
+82
+83        <service
+83-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:64:9-70:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:65:13-84
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:66:13-37
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:67:13-69:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:68:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:21.0.6] /home/priiyesh/.gradle/caches/transforms-3/84acf632a4d71d756b1e79e555148359/transformed/firebase-auth-21.0.6/AndroidManifest.xml:69:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-storage:20.1.0] /home/priiyesh/.gradle/caches/transforms-3/8c06b0ef00c132a568ad9eb2106694e4/transformed/firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+91-->[com.google.firebase:firebase-storage:20.1.0] /home/priiyesh/.gradle/caches/transforms-3/8c06b0ef00c132a568ad9eb2106694e4/transformed/firebase-storage-20.1.0/AndroidManifest.xml:33:17-107
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-storage:20.1.0] /home/priiyesh/.gradle/caches/transforms-3/8c06b0ef00c132a568ad9eb2106694e4/transformed/firebase-storage-20.1.0/AndroidManifest.xml:34:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-firestore-ktx:24.2.1] /home/priiyesh/.gradle/caches/transforms-3/90d12b88c08a4a8ddac9da4a19b4654f/transformed/firebase-firestore-ktx-24.2.1/AndroidManifest.xml:15:13-17:85
+94                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+94-->[com.google.firebase:firebase-firestore-ktx:24.2.1] /home/priiyesh/.gradle/caches/transforms-3/90d12b88c08a4a8ddac9da4a19b4654f/transformed/firebase-firestore-ktx-24.2.1/AndroidManifest.xml:16:17-126
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-firestore-ktx:24.2.1] /home/priiyesh/.gradle/caches/transforms-3/90d12b88c08a4a8ddac9da4a19b4654f/transformed/firebase-firestore-ktx-24.2.1/AndroidManifest.xml:17:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-firestore:24.2.1] /home/priiyesh/.gradle/caches/transforms-3/2ddbe387ded0b5bd093c62d02d1da88a/transformed/firebase-firestore-24.2.1/AndroidManifest.xml:20:13-22:85
+97                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+97-->[com.google.firebase:firebase-firestore:24.2.1] /home/priiyesh/.gradle/caches/transforms-3/2ddbe387ded0b5bd093c62d02d1da88a/transformed/firebase-firestore-24.2.1/AndroidManifest.xml:21:17-111
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-firestore:24.2.1] /home/priiyesh/.gradle/caches/transforms-3/2ddbe387ded0b5bd093c62d02d1da88a/transformed/firebase-firestore-24.2.1/AndroidManifest.xml:22:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-common-ktx:20.1.1] /home/priiyesh/.gradle/caches/transforms-3/6d7e74aa7449990dc3bb934dbd654eed/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+100                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+100-->[com.google.firebase:firebase-common-ktx:20.1.1] /home/priiyesh/.gradle/caches/transforms-3/6d7e74aa7449990dc3bb934dbd654eed/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-common-ktx:20.1.1] /home/priiyesh/.gradle/caches/transforms-3/6d7e74aa7449990dc3bb934dbd654eed/transformed/firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+102        </service>
+103
+104        <activity
+104-->[com.google.android.gms:play-services-base:18.0.1] /home/priiyesh/.gradle/caches/transforms-3/efc01bfe36f6ef45e619062d20e04466/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:18.0.1] /home/priiyesh/.gradle/caches/transforms-3/efc01bfe36f6ef45e619062d20e04466/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:18.0.1] /home/priiyesh/.gradle/caches/transforms-3/efc01bfe36f6ef45e619062d20e04466/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:18.0.1] /home/priiyesh/.gradle/caches/transforms-3/efc01bfe36f6ef45e619062d20e04466/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+108
+109        <provider
+109-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+110            android:name="com.google.firebase.provider.FirebaseInitProvider"
+110-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+111            android:authorities="com.example.kelineyt.firebaseinitprovider"
+111-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+112            android:directBootAware="true"
+112-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+113            android:exported="false"
+113-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+114            android:initOrder="100" />
+114-->[com.google.firebase:firebase-common:20.2.0] /home/priiyesh/.gradle/caches/transforms-3/8fe01ab2e96b287075462ac61d39b73c/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+115
+116        <meta-data
+116-->[com.google.android.gms:play-services-basement:18.1.0] /home/priiyesh/.gradle/caches/transforms-3/998385d3b0bd2cb5a016eac5fcece50a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+117            android:name="com.google.android.gms.version"
+117-->[com.google.android.gms:play-services-basement:18.1.0] /home/priiyesh/.gradle/caches/transforms-3/998385d3b0bd2cb5a016eac5fcece50a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+118            android:value="@integer/google_play_services_version" />
+118-->[com.google.android.gms:play-services-basement:18.1.0] /home/priiyesh/.gradle/caches/transforms-3/998385d3b0bd2cb5a016eac5fcece50a/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+119
+120        <provider
+120-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+121            android:name="androidx.startup.InitializationProvider"
+121-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+122            android:authorities="com.example.kelineyt.androidx-startup"
+122-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+123            android:exported="false" >
+123-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+124            <meta-data
+124-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+125                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+125-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+126                android:value="androidx.startup" />
+126-->[androidx.emoji2:emoji2:1.0.0] /home/priiyesh/.gradle/caches/transforms-3/98de69b1f25abc41d401d353bd1af2d6/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+127            <meta-data
+127-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/priiyesh/.gradle/caches/transforms-3/32621dc654c49e9a78cf52d5497100c9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+128                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+128-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/priiyesh/.gradle/caches/transforms-3/32621dc654c49e9a78cf52d5497100c9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+129                android:value="androidx.startup" />
+129-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/priiyesh/.gradle/caches/transforms-3/32621dc654c49e9a78cf52d5497100c9/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+130        </provider>
+131    </application>
+132
+133</manifest>

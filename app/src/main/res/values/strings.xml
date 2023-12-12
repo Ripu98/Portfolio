@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Thrift Era</string>
+    <string name="welcomeMessage">Welcome To Thrift Era</string>
+    <string name="shortSlogan">Get exclusive limited apparels that only\nthe Thrift Era has.</string>
+    <string name="signInSlogan">Enter your Thrift Era account details for\na personalised experience.</string>
+    <string name="alternateSignIn">------- Or SignIn With---------</string>
+    <string name="alternateSignUp">------- Or SignUp With---------</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
